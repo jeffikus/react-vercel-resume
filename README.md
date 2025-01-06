@@ -23,6 +23,8 @@ This project is set up for automatic deployment to Vercel when changes are pushe
 
 ### GitHub Actions
 
+UPDATE: you no longer need to set up GitHub Actions. You can simply connect your GitHub repository to Vercel and it will handle the deployment.
+
 This project uses GitHub Actions for CI/CD. The workflow is defined in `.github/workflows/deploy.yml`.
 
 To set up:
