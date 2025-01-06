@@ -60,8 +60,8 @@ export const siteConfig: SiteConfig = {
   contact: {
     email: process.env.NEXT_PUBLIC_EMAIL || "email@example.com",
     phone: process.env.NEXT_PUBLIC_PHONE || "+1 234 567 8900",
-    website: "https://jeffikus.com",
-    contactPage: "https://jeffikus.com/contact-me/"
+    website: process.env.NEXT_PUBLIC_WEBSITE || "https://example.com",
+    contactPage: process.env.NEXT_PUBLIC_CONTACT_PAGE || "https://example.com/contact"
   },
   roles: {
     primary: {

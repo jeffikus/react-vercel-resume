@@ -42,6 +42,10 @@ To set up:
 - [Framer Motion](https://www.framer.com/motion/)
 - [v0.dev](https://v0.dev/)
 
+## Environment Variables
+
+Copy `.env.example` to `.env.local` and update the values.
+
 ## Author
 
 Jeffrey Pearce
