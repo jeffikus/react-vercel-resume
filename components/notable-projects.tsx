@@ -12,7 +12,7 @@ export function NotableProjects() {
       <CardContent>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {siteConfig.projects.map((project, index) => (
-            <Card key={index} className="flex flex-col">
+            <Card key={index} className="flex flex-col rounded-lg border border-neutral-200 dark:border-neutral-700 p-4 transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg dark:hover:shadow-neutral-800">
               <CardHeader>
                 <CardTitle className="text-lg">{project.name}</CardTitle>
               </CardHeader>

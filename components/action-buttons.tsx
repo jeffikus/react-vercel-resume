@@ -5,7 +5,7 @@ import { siteConfig } from "@/config/site"
 
 export function ActionButtons() {
   return (
-    <Card className="mt-8">
+    <Card className="mt-8 rounded-lg border border-neutral-200 dark:border-neutral-700 transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg dark:hover:shadow-neutral-800">
       <CardHeader>
         <CardTitle>Get in Touch</CardTitle>
       </CardHeader>

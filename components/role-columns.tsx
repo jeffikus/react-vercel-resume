@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 export function RoleColumns() {
   return (
     <div className="grid md:grid-cols-2 gap-8 mt-8">
-      <Card>
+      <Card className="rounded-lg border border-neutral-200 dark:border-neutral-700 transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg dark:hover:shadow-neutral-800">
         <CardHeader>
           <CardTitle>Engineering Manager</CardTitle>
         </CardHeader>
@@ -23,7 +23,7 @@ export function RoleColumns() {
           </div>
         </CardContent>
       </Card>
-      <Card>
+      <Card className="rounded-lg border border-neutral-200 dark:border-neutral-700 transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg dark:hover:shadow-neutral-800">
         <CardHeader>
           <CardTitle>Frontend Developer</CardTitle>
         </CardHeader>

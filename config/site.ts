@@ -55,7 +55,7 @@ export type SiteConfig = {
 export const siteConfig: SiteConfig = {
   name: process.env.NEXT_PUBLIC_NAME || "Your Name",
   role: "Engineering Manager & Frontend Developer",
-  location: "Charlotte, NC and Remote US",
+  location: "Charlotte, NC and Remote USA",
   bio: "I am an accomplished Engineering Manager with over 15 years of experience, specializing in leading high-performing teams to deliver large-scale, high-quality web products. I have a proven track record of driving innovation, fostering cross-team collaboration, and achieving outstanding results in fast-paced, evolving environments.",
   contact: {
     email: process.env.NEXT_PUBLIC_EMAIL || "email@example.com",
@@ -129,7 +129,8 @@ export const siteConfig: SiteConfig = {
     "Continuous Integration (CI/CD)",
     "Docker",
     "Figma",
-  ],
+    "Mobile App Development",
+  ] as const,
   projects: [
     { 
       name: "WooCommerce", 
@@ -262,7 +263,7 @@ I'll miss him and his terrible puns!`
     },
     {
       name: "Josepha Haden Chomphosy",
-      title: "Open source software executive | Councilmember | Keynote speaker",
+      title: "Open source software executive | Councilmember",
       message: `Jeffrey stepped into leadership role for a team in transition and did a great job of rebuilding their sense of psychological safety. He has a good instinct for mid-level strategic gaps, and proactively seeks thought partnership for solving those key problems.
 
 He's a clear and thoughtful communicator and quick to implement changes based on feedback received. I would work with him again any day.`

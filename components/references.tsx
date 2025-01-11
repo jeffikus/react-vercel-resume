@@ -20,15 +20,18 @@ export function References() {
       <CardContent>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {siteConfig.references.map((reference, index) => (
-            <Card key={index}>
-              <CardContent className="pt-6">
-                <blockquote className="text-muted-foreground mb-4 whitespace-pre-line">
-                  "{reference.message}"
-                </blockquote>
-                <div>
+            <Card 
+              key={index} 
+              className="rounded-lg border border-neutral-200 dark:border-neutral-700 transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-lg dark:hover:shadow-neutral-800"
+            >
+              <CardContent className="pt-6 flex flex-col h-full">
+                <div className="mb-4 pb-4 border-b border-neutral-200 dark:border-neutral-700">
                   <div className="font-semibold">{reference.name}</div>
                   <div className="text-sm text-muted-foreground">{reference.title}</div>
                 </div>
+                <blockquote className="text-muted-foreground whitespace-pre-line flex-grow">
+                  "{reference.message}"
+                </blockquote>
               </CardContent>
             </Card>
           ))}
