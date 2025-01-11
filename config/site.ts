@@ -181,20 +181,127 @@ export const siteConfig: SiteConfig = {
       url: "https://wordpress.org/themes/storefront/",
       details: "Technical code review for v1, assisted with code fixes for the marketing team."
     },
+    {
+      name: "Free WordPress Themes",
+      details: "Made by Automattic for WordPress.org and WordPress.com.",
+      url: "https://github.com/Automattic/themes"
+    },
+    {
+      name: "This Resume",
+      details: "Built with React, Next.js, Shadcn UI, v0.dev, using Cursor IDE.",
+      url: "https://github.com/jeffikus/react-vercel-resume"
+    },
   ],
   references: [
     {
-      name: "John Doe",
-      title: "Engineering Director",
-      message: "Jeffrey is an exceptional leader who consistently delivers results.",
-      avatar: "/placeholder-avatar.jpg",
+      name: "Kjell Reigstad",
+      title: "Senior Staff Product Designer at Shopify",
+      message: "I worked extensively with Jeff as both his lead and also as his peer at Automattic. He's is an expert in the WordPress themes space, and is an organized, thoughtful leader with an eye for improving processes."
     },
     {
-      name: "Jane Smith",
-      title: "Product Manager",
-      message: "Working with Jeffrey was a pleasure. His technical expertise and leadership skills are outstanding.",
-      avatar: "/placeholder-avatar.jpg",
+      name: "Beau Lebens",
+      title: "Head of Engineering, WooCommerce",
+      message: "Jeffrey is a pleasure to work with, and brings a combined design and engineering perspective to his work that is uniquely powerful. I've appreciated his thoughtful approach over the years that we've worked together."
     },
+    {
+      name: "Andrew Keggie",
+      title: "CIO at Lula",
+      message: `Jeff is a hard working individual, dependable and self managed. He has a passion for development and aptitude for analyzing business requirements.
+
+I have worked with Jeff in completing a number of successful websites and would happily work with him again.`
+    },
+    {
+      name: "Warren Holmes",
+      title: "Head of Product, WooCommerce",
+      message: `I had the privilege of working closely with Jeff in the early days of WooCommerce, and I can confidently say that he is one of the best technical engineers I've worked with. He consistently demonstrates a deep understanding of not just the "how" but the "why" behind the work, which makes him incredibly effective at solving problems and building meaningful solutions.
+
+Beyond his technical expertise, Jeff is a true team player. He's always willing to take on whatever role is needed to get the job done, and he does so with a positive attitude and genuine care for the people around him. His humor and kindness bring a sense of humanity to any team, making him not just a great colleague, but a good person to work with.
+
+He has an incredible work ethic and is exactly the type of engineer who helps you build great products. I'll always be grateful for how he mentored me early in my career and for the support he provided during a particularly tough moment when WooCommerce.com, a site I managed, was hacked. His calm demeanor and guidance were invaluable in helping us recover.
+
+Any company would be lucky to have Jeff on their team.`
+    },
+    {
+      name: "Daniel Dudzic",
+      title: "Senior Full Stack Engineer",
+      message: `I highly recommend Jeff, who is both a former colleague and a friend. He is an exceptional technical engineer. Jeff leads with empathy and a calm approach, which makes him great at helping teams navigate challenges.
+
+One of Jeff's standout qualities is his ability to uplift those around him, positively influencing team dynamics. He blends his technical skills with a collaborative attitude, consistently producing high-quality work while creating a supportive atmosphere.
+
+Any organization would be lucky to have Jeff. He is not only a highly skilled professional but also an inspiring colleague who encourages others to excel. If you have the chance to bring Jeff onto your team, I strongly recommend you take it.`
+    },
+    {
+      name: "Matt Cohen",
+      title: "Head of Platform Engineering, WooCommerce",
+      message: `Jeffrey and I worked together across WooThemes/WooCommerce and Automattic, for almost 15 years. We shared an office and spent many hours in planning sessions to build version 1 of Sensei, among many other digital products.
+
+Jeff has a methodical and thoughtful approach to his work. He puts the customer first, and brings a clear intention toward the outcomes his work will help customers to achieve. Jeff is an emphatic and thoughtful leader who puts his team first and aligns the group around a shared mission and objective.
+
+I would recommend Jeff as a strong team leader and software engineering director.`
+    },
+    {
+      name: "Andy Schär",
+      title: "Founder at Debatable",
+      message: "Jeff is a really great guy and a genuine expert in his field. I had the pleasure of his consultancy from time to time during the development of FLIXY and Jeff's role was predominantly as my technical advisor. That proved invaluable as I navigated some pretty technical development terrain. His knowledge and calm demeanour made it easy for me to make important time-sensitive decisions and I recommend him highly."
+    },
+    {
+      name: "Andrew Lind",
+      title: "Senior Analytics Engineer, Automattic",
+      message: `Jeff achieved legendary status at Woo and Automattic, as confirmed by several memes being created in his honour!
+
+I had the fortune of having Jeff as a mentor when I joined Automattic, and his generous support and care helped me acclimatise to the distributed and somewhat chaotic culture of the company.
+
+He was always available for some handy insight and guidance whenever I needed it!`
+    },
+    {
+      name: "Christy Nyiri",
+      title: "Design Lead, Automattic Special Projects",
+      message: `Jeff was my team lead during part of my time at Automattic, and it was refreshing to report to someone with an engineering background who not only understood all my technical frustrations, but worked with me to systematically solve those problems, both for myself, and for our larger team.
+
+I'll miss him and his terrible puns!`
+    },
+    {
+      name: "Josepha Haden Chomphosy",
+      title: "Open source software executive | Councilmember | Keynote speaker",
+      message: `Jeffrey stepped into leadership role for a team in transition and did a great job of rebuilding their sense of psychological safety. He has a good instinct for mid-level strategic gaps, and proactively seeks thought partnership for solving those key problems.
+
+He's a clear and thoughtful communicator and quick to implement changes based on feedback received. I would work with him again any day.`
+    },
+    {
+      name: "Beatriz Fialho",
+      title: "Product Designer, Automattic",
+      message: `I had the pleasure of working with Jeff while he led the Themes Development team, where he consistently bridged gaps between design and development with his approachable, empathetic nature.
+
+Jeff was always ready to help solve complex development problems, foster open communication across teams, and effectively prioritize and delegate tasks.
+
+I highly recommend Jeff for any role that requires solid leadership, development and project management skills, as well as deep knowledge of WordPress.`
+    },
+    {
+      name: "Sarah Norris",
+      title: "Engineering Lead, Automattic",
+      message: `I had the pleasure of working with Jeff for just over 2 years on the Theme Dev team at Automattic. I appreciated his kindness and thoughtfulness as my team lead, and he always gave the team his full support.
+
+He has many years of experience with WordPress, especially all things themes, and he has a keen eye for organisation and process.`
+    },
+    {
+      name: "Kyle Runner",
+      title: "Agency Partner Manager, Automattic",
+      message: `I am honored to say that I got to work with Jeff over the past year when he came in as my team lead! Jeff is a compassionate and dedicated leader that is always willing to dig in and problem solve.
+
+He is relational, humorous and full of insight in that tends to bring the best out of his team members. Any team should be thrilled to bring in someone of such a high caliber!`
+    },
+    {
+      name: "Chloé Bringmann",
+      title: "Pyschotherapist | Executive Performance Coach",
+      message: `I have had the pleasure of collaborating with Jeff during his tenure working with themes in the WordPress open source Project. His approach to block themes was characterized by curiosity and creativity, mirrored in his leadership.
+
+Jeff is a valued colleague and a driver of innovation and impact, which I look forward to seeing carried over in his work as a leader in Automattic's Special Projects.`
+    },
+    {
+      name: "Magnus Jepson",
+      title: "Co-Founder, WooCommerce",
+      message: "From the moment Jeffrey joined our team at Woo, he has been a great asset to the team, a mentor to new employees and a great friend over the years."
+    }
   ],
   social: {
     github: "https://github.com/jeffikus",
