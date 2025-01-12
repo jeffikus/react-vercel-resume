@@ -25,7 +25,7 @@ export function References() {
           className="text-sm text-muted-foreground hover:text-primary flex items-center gap-2"
         >
           Read more on LinkedIn
-          <ExternalLink className="h-4 w-4" />
+          <ExternalLink className="h-4 w-4 ml-1" />
         </a>
       </CardHeader>
       <CardContent>
