@@ -38,7 +38,14 @@ export type SiteConfig = {
     title: string
     description: string
   }>
-  skills: string[]
+  skills: {
+    "Languages": string[]
+    "Frontend": string[]
+    "WordPress": string[]
+    "Backend": string[]
+    "Tools & Platforms": string[]
+    "Leadership": string[]
+  }
   projects: Array<{
     name: string
     url: string
@@ -159,35 +166,68 @@ export const siteConfig: SiteConfig = {
       description: "My recent work with AI tools has significantly improved team productivity. I implemented AI to streamline project retrospectives, transform large volumes of web content, and accelerate team status updates, resulting in measurable workload reductions."
     }
   ],
-  skills: [
-    "Engineering Leadership",
-    "Communication",
-    "Frontend Design Systems",
-    "Agile Project Management",
-    "SDLC",
-    "Product Management",
-    "Web Development",
-    "JavaScript",
-    "React",
-    "Computer Science",
-    "Cross-Functional Coordination",
-    "Strategic Planning",
-    "Code Review",
-    "Professional Development",
-    "MySQL",
-    "REST API Integration",
-    "PHP",
-    "CSS",
-    "HTML",
-    "WordPress",
-    "eCommerce",
-    "AI Integration",
-    "GitHub",
-    "Continuous Integration (CI/CD)",
-    "Docker",
-    "Figma",
-    "Mobile App Development",
-  ] as const,
+  skills: {
+    "Languages": [
+      "PHP",
+      "JavaScript", 
+      "SQL",
+      "HTML",
+      "CSS",
+      "SASS/SCSS",
+      "MySQL",
+      "TypeScript"
+    ],
+    "Frontend": [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Responsive Design",
+      "Frontend Design Systems",
+      "Mobile App Development"
+    ],
+    "WordPress": [
+      "WordPress Core Development",
+      "WordPress Block Editor",
+      "WordPress Theme Development",
+      "WordPress Plugin Development",
+      "WordPress VIP",
+      "WooCommerce",
+      "eCommerce"
+    ],
+    "Backend": [
+      "Node.js",
+      "REST API Development & Integration",
+      "Database Design",
+      "Server Management"
+    ],
+    "Tools & Platforms": [
+      "Git",
+      "Docker",
+      "AWS",
+      "VS Code",
+      "GitHub",
+      "CI/CD",
+      "npm Package Management",
+      "Figma",
+      "AI Integration"
+    ],
+    "Leadership": [
+      "Team Management",
+      "Agile Methodologies",
+      "Technical Leadership",
+      "Engineering Leadership",
+      "Mentoring and Coaching",
+      "Professional Development",
+      "Project Management",
+      "Process Improvement",
+      "Strategic Planning",
+      "Cross-functional Collaboration",
+      "Communication",
+      "Code Review",
+      "SDLC",
+      "Product Management"
+    ]
+  },
   projects: [
     { 
       name: "WooCommerce", 
