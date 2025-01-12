@@ -74,7 +74,7 @@ export const siteConfig: SiteConfig = {
     title: `${process.env.NEXT_PUBLIC_NAME || "Your Name"} - ${process.env.NEXT_PUBLIC_ROLE || "Engineering Manager & Frontend Developer"}`,
     description: `Professional portfolio of ${process.env.NEXT_PUBLIC_NAME || "Your Name"}, experienced Engineering Manager & Frontend Developer based in Charlotte, NC.`
   },
-  bio: "I am an accomplished Engineering Manager with over 15 years of experience, specializing in leading high-performing teams to deliver large-scale, high-quality web products. I have a proven track record of driving innovation, fostering cross-team collaboration, and achieving outstanding results in fast-paced, evolving environments.",
+  bio: "I am an accomplished Engineering Manager and Frontend Developer with over 15 years of experience, specializing in leading high-performing teams to deliver large-scale, high-quality web products. I have a proven track record of driving innovation, fostering cross-team collaboration, and achieving outstanding results in fast-paced, evolving environments.",
   contact: {
     email: process.env.NEXT_PUBLIC_EMAIL || "email@example.com",
     phone: process.env.NEXT_PUBLIC_PHONE || "+1 234 567 8900",
@@ -85,14 +85,14 @@ export const siteConfig: SiteConfig = {
     primary: {
       title: "Engineering Manager",
       description: "With over a decade of experience leading high-performing, distributed teams, I bring a blend of engineering excellence, impactful leadership, and a commitment to empowering designers and engineers through scalable and innovative solutions.",
-      resumeUrl: "/jeffrey-pearce-resume.pdf",
-      coverLetterUrl: "/jeffrey-pearce-cover-letter-em.pdf"
+      resumeUrl: process.env.NEXT_PUBLIC_PRIMARY_RESUME_URL || "/jeffrey-pearce-resume.pdf",
+      coverLetterUrl: process.env.NEXT_PUBLIC_PRIMARY_COVER_LETTER_URL || "/jeffrey-pearce-cover-letter-em.pdf"
     },
     secondary: {
       title: "Frontend Developer",
       description: "With extensive experience in frontend development, I have led and contributed to widely adopted and highly rated products, leveraging customer insights to inform design and implementation, consistently prioritizing user-focused solutions.",
-      resumeUrl: "/jeffrey-pearce-resume.pdf",
-      coverLetterUrl: "/jeffrey-pearce-cover-letter-fd.pdf"
+      resumeUrl: process.env.NEXT_PUBLIC_SECONDARY_RESUME_URL || "/jeffrey-pearce-resume.pdf",
+      coverLetterUrl: process.env.NEXT_PUBLIC_SECONDARY_COVER_LETTER_URL || "/jeffrey-pearce-cover-letter-fd.pdf"
     }
   },
   employmentHistory: [
