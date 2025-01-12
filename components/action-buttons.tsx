@@ -11,7 +11,7 @@ export function ActionButtons() {
       </CardHeader>
       <CardContent>
         <div className="flex flex-col gap-6">
-          <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
               <Button asChild className="w-full sm:w-auto">
                 <a href={siteConfig.contact.website} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
@@ -25,28 +25,28 @@ export function ActionButtons() {
                 </a>
               </Button>
             </div>
-          </div>
-          <div className="flex justify-center sm:justify-start space-x-4">
-            <a href={siteConfig.social.github} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-              <Github className="h-6 w-6" />
-              <span className="sr-only">GitHub</span>
-            </a>
-            <a href={siteConfig.social.linkedin} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-              <Linkedin className="h-6 w-6" />
-              <span className="sr-only">LinkedIn</span>
-            </a>
-            <a href={siteConfig.social.twitter} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-              <Twitter className="h-6 w-6" />
-              <span className="sr-only">Twitter</span>
-            </a>
-            <a href={siteConfig.social.facebook} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-              <Facebook className="h-6 w-6" />
-              <span className="sr-only">Facebook</span>
-            </a>
-            <a href={siteConfig.social.instagram} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-              <Instagram className="h-6 w-6" />
-              <span className="sr-only">Instagram</span>
-            </a>
+            <div className="flex space-x-4">
+              <a href={siteConfig.social.github} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                <Github className="h-6 w-6" />
+                <span className="sr-only">GitHub</span>
+              </a>
+              <a href={siteConfig.social.linkedin} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                <Linkedin className="h-6 w-6" />
+                <span className="sr-only">LinkedIn</span>
+              </a>
+              <a href={siteConfig.social.twitter} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                <Twitter className="h-6 w-6" />
+                <span className="sr-only">Twitter</span>
+              </a>
+              <a href={siteConfig.social.facebook} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                <Facebook className="h-6 w-6" />
+                <span className="sr-only">Facebook</span>
+              </a>
+              <a href={siteConfig.social.instagram} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                <Instagram className="h-6 w-6" />
+                <span className="sr-only">Instagram</span>
+              </a>
+            </div>
           </div>
         </div>
       </CardContent>
