@@ -61,6 +61,9 @@ export type SiteConfig = {
   footer: {
     credits: string
   }
+  linkedIn: {
+    recommendations: string
+  }
 }
 
 export const siteConfig: SiteConfig = {
@@ -368,6 +371,9 @@ Jeff is a valued colleague and a driver of innovation and impact, which I look f
   },
   footer: {
     credits: "Built with React, Next.js, Shadcn UI, and v0.dev"
+  },
+  linkedIn: {
+    recommendations: "https://www.linkedin.com/in/jeffikus/details/recommendations/",
   }
 }
 

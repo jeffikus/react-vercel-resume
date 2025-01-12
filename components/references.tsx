@@ -8,7 +8,7 @@ export function References() {
       <CardHeader className="flex flex-row items-center justify-between">
         <CardTitle>References</CardTitle>
         <a 
-          href="https://www.linkedin.com/in/jeffikus/details/recommendations/"
+          href={siteConfig.linkedIn.recommendations}
           target="_blank"
           rel="noopener noreferrer"
           className="text-sm text-muted-foreground hover:text-primary flex items-center gap-2"
