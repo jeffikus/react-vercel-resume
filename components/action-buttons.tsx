@@ -10,21 +10,23 @@ export function ActionButtons() {
         <CardTitle>Get in Touch</CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Button asChild>
-              <a href={siteConfig.contact.website} target="_blank" rel="noopener noreferrer" className="flex items-center">
-                <Globe className="mr-2 h-4 w-4" />
-                Visit My Website
-              </a>
-            </Button>
-            <Button asChild variant="secondary">
-              <a href={siteConfig.contact.contactPage} target="_blank" rel="noopener noreferrer">
-                Contact Me
-              </a>
-            </Button>
+        <div className="flex flex-col gap-6">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+              <Button asChild className="w-full sm:w-auto">
+                <a href={siteConfig.contact.website} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+                  <Globe className="mr-2 h-4 w-4" />
+                  Visit My Website
+                </a>
+              </Button>
+              <Button asChild variant="secondary" className="w-full sm:w-auto">
+                <a href={siteConfig.contact.contactPage} target="_blank" rel="noopener noreferrer">
+                  Contact Me
+                </a>
+              </Button>
+            </div>
           </div>
-          <div className="flex justify-center space-x-4">
+          <div className="flex justify-center sm:justify-start space-x-4">
             <a href={siteConfig.social.github} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Github className="h-6 w-6" />
               <span className="sr-only">GitHub</span>
