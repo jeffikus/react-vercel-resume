@@ -86,7 +86,12 @@ export const siteConfig: SiteConfig = {
         { title: "Engineering Squad Lead, WordPress.com Theme Development Team", period: "Mar 2020 - Aug 2020" },
         { title: "Creative Technologist, Design Division", period: "Nov 2018 - Mar 2020" },
         { title: "Senior Software Developer, Theme Development Team", period: "Jul 2015 - Nov 2018" },
-        { title: "Senior Software Developer, WooCommerce", period: "Dec 2009 - Jun 2015" },
+      ],
+    },
+    {
+      company: "WooCommerce",
+      roles: [
+        { title: "Senior Software Developer, WooCommerce", period: "Dec 2009 - Jun 2015 (acquired by Automattic in 2015)" },
       ],
     },
     {

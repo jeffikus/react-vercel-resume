@@ -11,7 +11,13 @@ export function Skills() {
       <CardContent>
         <div className="flex flex-wrap gap-2">
           {siteConfig.skills.map((skill, index) => (
-            <Badge key={index} variant="secondary">{skill}</Badge>
+            <Badge 
+              key={index} 
+              variant="secondary"
+              className="transition-all duration-200 ease-in-out hover:scale-110 hover:bg-primary hover:text-primary-foreground cursor-default"
+            >
+              {skill}
+            </Badge>
           ))}
         </div>
       </CardContent>
