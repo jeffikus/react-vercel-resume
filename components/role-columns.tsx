@@ -31,11 +31,11 @@ export function RoleColumns() {
           <p className="mb-4">
             {siteConfig.roles.secondary.description}
           </p>
-          <div className="flex space-x-4">
-            <Button asChild>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Button asChild className="flex-1">
               <a href={siteConfig.roles.secondary.resumeUrl} download>Download Resume</a>
             </Button>
-            <Button asChild variant="outline">
+            <Button asChild variant="outline" className="flex-1">
               <a href={siteConfig.roles.secondary.coverLetterUrl} download>Download Cover Letter</a>
             </Button>
           </div>

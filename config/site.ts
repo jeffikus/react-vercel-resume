@@ -196,6 +196,7 @@ export const siteConfig: SiteConfig = {
     ],
     "Backend": [
       "Node.js",
+      "Laravel",
       "REST API Development & Integration",
       "Database Design",
       "Server Management"
