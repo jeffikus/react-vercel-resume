@@ -16,7 +16,7 @@ export function References() {
 
   return (
     <Card className="mt-8">
-      <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-6">
+      <CardHeader className="flex flex-col sm:flex-row items-center justify-between space-y-2 sm:space-y-0 pb-6">
         <CardTitle>References</CardTitle>
         <a 
           href={siteConfig.linkedIn.recommendations}
