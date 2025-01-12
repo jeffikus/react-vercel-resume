@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
 import { ThemeProvider } from '@/components/theme-provider'
+import { siteConfig } from '@/config/site'
 import './globals.css'
 
 const poppins = Poppins({ 
@@ -10,8 +11,8 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'Jeffrey Pearce - Engineering Manager & Frontend Developer',
-  description: 'Professional portfolio of Jeffrey Pearce, experienced Engineering Manager and Frontend Developer based in Charlotte, NC.',
+  title: siteConfig.metadata.title,
+  description: siteConfig.metadata.description,
 }
 
 export default function RootLayout({

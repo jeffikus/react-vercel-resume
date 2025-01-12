@@ -3,6 +3,10 @@ export type SiteConfig = {
   role: string
   location: string
   bio: string
+  metadata: {
+    title: string
+    description: string
+  }
   contact: {
     email: string
     phone: string
@@ -30,6 +34,10 @@ export type SiteConfig = {
       period: string
     }>
   }>
+  careerHighlights: Array<{
+    title: string
+    description: string
+  }>
   skills: string[]
   projects: Array<{
     name: string
@@ -50,12 +58,19 @@ export type SiteConfig = {
     instagram: string
     wordpress: string
   }
+  footer: {
+    credits: string
+  }
 }
 
 export const siteConfig: SiteConfig = {
   name: process.env.NEXT_PUBLIC_NAME || "Your Name",
-  role: "Engineering Manager & Frontend Developer",
+  role: process.env.NEXT_PUBLIC_ROLE || "Engineering Manager & Frontend Developer",
   location: "Charlotte, NC and Remote USA",
+  metadata: {
+    title: `${process.env.NEXT_PUBLIC_NAME || "Your Name"} - ${process.env.NEXT_PUBLIC_ROLE || "Engineering Manager & Frontend Developer"}`,
+    description: `Professional portfolio of ${process.env.NEXT_PUBLIC_NAME || "Your Name"}, experienced Engineering Manager & Frontend Developer based in Charlotte, NC.`
+  },
   bio: "I am an accomplished Engineering Manager with over 15 years of experience, specializing in leading high-performing teams to deliver large-scale, high-quality web products. I have a proven track record of driving innovation, fostering cross-team collaboration, and achieving outstanding results in fast-paced, evolving environments.",
   contact: {
     email: process.env.NEXT_PUBLIC_EMAIL || "email@example.com",
@@ -106,6 +121,40 @@ export const siteConfig: SiteConfig = {
         { title: "Technical Advisor/Consultant", period: "2015 - 2018" },
       ],
     },
+  ],
+  careerHighlights: [
+    {
+      title: "Building Trusted, Customer-Centric Products",
+      description: "I have led and contributed to the development of widely adopted and highly rated frontend products, including WooCommerce, Sensei LMS, Flexslider, over 100 WordPress themes, and the WordPress core Navigation Menu System. By leveraging customer insights to inform design and implementation, I have consistently prioritised user-focused solutions that drive adoption, enhance satisfaction, and build trust in our offerings."
+    },
+    {
+      title: "Driving Design Systems Excellence",
+      description: "I led engineering teams in creating scalable design system implementations, including in WordPress themes and VIP partner projects, that ensure consistency and ease of maintenance. My teams contributed key design tools to WordPress core, enabling editable global styles, ensuring reusable component consistency, and enhancing workflows."
+    },
+    {
+      title: "Proven Leadership and Team Influence",
+      description: "I have a proven track record of mentoring technical leaders and maximizing team potential. My influence extended to key contributors in the WordPress open-source project, driving high-quality, scalable results across PHP, JavaScript, and React teams."
+    },
+    {
+      title: "Streamlining Processes",
+      description: "I introduced agile methodologies to my teams, accelerating shipping velocity from 10 products annually to 12 per month, and developed automated processes for product releases to boost efficiency and consistency."
+    },
+    {
+      title: "Empowering Cross-Functional Teams",
+      description: "My teams automated product release workflows by integrating APIs into an intuitive dashboard, enabling designers to independently launch multiple products. This strengthened collaboration between design and development teams, accelerating product launches."
+    },
+    {
+      title: "Strategic Product Leadership",
+      description: "I led the retirement of legacy products such as the Canvas WordPress theme and the WordPress.com Premium Theme Marketplace, collaborating with finance, legal, and executive stakeholders to ensure seamless execution and minimal customer disruption, aligning the product portfolio with long-term company goals."
+    },
+    {
+      title: "Deep eCommerce Expertise",
+      description: "At WooCommerce, I contributed to the core codebase, authored technical documentation for third-party developers, and managed high-traffic implementations, delivering scalable, reliable solutions for a global customer base."
+    },
+    {
+      title: "Implementing AI Efficiencies",
+      description: "My recent work with AI tools has significantly improved team productivity. I implemented AI to streamline project retrospectives, transform large volumes of web content, and accelerate team status updates, resulting in measurable workload reductions."
+    }
   ],
   skills: [
     "Engineering Leadership",
@@ -315,7 +364,10 @@ Jeff is a valued colleague and a driver of innovation and impact, which I look f
     twitter: "https://twitter.com/jeffikus",
     facebook: "https://facebook.com/jeffikus",
     instagram: "https://instagram.com/jeffikus",
-    wordpress: "https://profiles.wordpress.org/jeffikus/"
+    wordpress: "https://profiles.wordpress.org/jeffikus"
+  },
+  footer: {
+    credits: "Built with React, Next.js, Shadcn UI, and v0.dev"
   }
 }
 

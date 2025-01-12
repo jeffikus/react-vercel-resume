@@ -8,6 +8,7 @@ import { References } from './references'
 import { ActionButtons } from './action-buttons'
 import { Footer } from './footer'
 import { AnimatedSection } from './animated-section'
+import { CareerHighlights } from './career-highlights'
 
 export function LandingPage() {
   return (
@@ -25,6 +26,9 @@ export function LandingPage() {
         </AnimatedSection>
         <AnimatedSection>
           <EmploymentHistory />
+        </AnimatedSection>
+        <AnimatedSection>
+          <CareerHighlights />
         </AnimatedSection>
         <AnimatedSection>
           <NotableProjects />
